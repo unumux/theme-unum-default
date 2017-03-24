@@ -29,7 +29,7 @@ $component-button-negative-background-color-hover: $theme-action-negative-2 !def
 $component-button-negative-background-color-active: $theme-action-negative-3 !default;
 $component-button-negative-background-color-disabled: $theme-action-2 !default;
 
-//TEXT COLORS
+////////TEXT COLORS
 //NEUTRAL 
 $component-button-text-color: $theme-text-primary !default;
 $component-button-text-color-focus: $theme-text-primary !default;
@@ -58,7 +58,7 @@ $component-button-negative-text-color-hover: $theme-text-inverse !default;
 $component-button-negative-text-color-active: $theme-text-inverse !default;
 $component-button-negative-text-color-disabled: $theme-text-tertiary !default;
 
-//BORDERS
+////////BORDERS
 //NEUTRAL 
 $component-button-border: $component-border-width solid $component-border-color !default;
 $component-button-border-disabled: transparent !default;
