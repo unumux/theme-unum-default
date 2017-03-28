@@ -21,6 +21,15 @@ $component-border-color-inverse: $theme-white !default;
 $component-border-color-secondary: $theme-accent !default;
 $component-border-color-disabled: $theme-primary !default;
 
+$component-body-text-color: $theme-text-primary !default;
+$component-body-text-color-secondary: $theme-text-secondary !default;
+$component-body-text-color-inverse: $theme-text-inverse !default;
+$component-body-text-color-disabled: $theme-text-tertiary !default;
+
+$component-blockquote-text-color: $component-body-text-color-secondary !default;
+$component-blockquote-font-weight: 600 !default;
+$component-blockquote-border-color: $component-border-color-secondary !default;
+
 $component-link-color: $theme-primary !default;
 $component-link-color-hover: $theme-primary-2 !default;
 $component-link-color-focus: $theme-primary !default;
@@ -32,15 +41,6 @@ $component-link-color-inverse-hover: $theme-text-inverse !default;
 $component-link-color-inverse-focus: $theme-text-inverse !default;
 $component-link-color-inverse-active: $theme-text-inverse !default;
 $component-link-color-inverse-visited: $theme-text-inverse !default;
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//      TEXT STYLE VARIABLES
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//>>>>>>>>> Text Colors
-$component-body-text-color: $theme-text-primary !default;
-$component-body-text-color-secondary: $theme-text-secondary !default;
-$component-body-text-color-inverse: $theme-text-inverse !default;
-$component-body-text-color-disabled: $theme-text-tertiary !default;
 
 // >>>>>>>>> Default Text Style Property Set
 $component-body-style-default: $text-style-content-1 !default;
@@ -59,15 +59,6 @@ $component-border-radius-small: 3px !default;
 $component-border-radius-large: 5px !default;
 
 $component-border-width: 1px !default;
-
-// For media queries
-// content width plus gutters on each side
-$breakpoints: (
-    extra-small: 350px,
-    small: 600px,
-    medium: 828px,
-    large: 1230px
-) !default;
 
 $base-size: 12px !default;
 $content-max-width: 1170px !default;
