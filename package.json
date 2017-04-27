@@ -1,6 +1,6 @@
 {
   "name": "@unumux/theme-unum-default",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    }
+    },
+    "save-prefix": "^"
   },
   "dependencies": {
     "@unumux/willow" : "^0.1.4"
