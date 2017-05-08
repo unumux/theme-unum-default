@@ -1,6 +1,6 @@
 {
   "name": "@unumux/theme-unum-default",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "save-prefix": "^"
   },
   "dependencies": {
-    "@unumux/willow" : "^0.1.12"
+    "@unumux/willow" : "^0.1.13"
   }
 }
