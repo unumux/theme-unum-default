@@ -26,6 +26,6 @@
     "save-prefix": "^"
   },
   "dependencies": {
-    "@unumux/willow": "^0.1.17"
+    "@unumux/willow": "^0.1.18"
   }
 }
