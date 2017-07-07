@@ -54,9 +54,11 @@ $component-body-style-default: $text-style-content-1 !default;
 
 // >>>>>>>>> Highlighted Text 
 $component-highlighted-text-background-color: $theme-accent !default;
+$component-highlighted-text-color: $theme-text-primary !default;
 
 // >>>>>>>>> Monospace Text
 $component-body-text-monospace: $font-family-monospace !default;
+$component-body-text-color-monospace: $theme-text-primary !default;
 
 // VARIABLES FOR SIZING COMPONENTS AND COMPONENT PARTS
 
