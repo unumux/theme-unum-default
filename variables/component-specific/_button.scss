@@ -1,5 +1,5 @@
 $component-button-border-radius: $component-border-radius !default;
-$component-button-border-color: $theme-text-tertiary !default;
+$component-button-border-color: transparent !default;
 
 // =============================================================================
 //      NEUTRAL BUTTONS
@@ -13,11 +13,11 @@ $component-button-background-color-focus: $theme-action !default;
 $component-button-background-color-disabled: $theme-action-disabled !default;
 
 // Text
-$component-button-text-color: $theme-text-primary !default;
-$component-button-text-color-visited: $theme-text-primary !default;
-$component-button-text-color-hover: $theme-text-primary !default;
-$component-button-text-color-active: $theme-text-primary !default;
-$component-button-text-color-focus: $theme-text-primary !default;
+$component-button-text-color: $theme-text-tertiary !default;
+$component-button-text-color-visited: $theme-text-tertiary !default;
+$component-button-text-color-hover: $theme-text-tertiary !default;
+$component-button-text-color-active: $theme-text-tertiary !default;
+$component-button-text-color-focus: $theme-text-tertiary !default;
 $component-button-text-color-disabled: $component-body-text-color-disabled !default;
 
 // Borders
@@ -126,7 +126,7 @@ $component-button-ghost-text-color-visited: $theme-text-inverse !default;
 $component-button-ghost-text-color-hover: $theme-primary !default;
 $component-button-ghost-text-color-active: $theme-primary !default;
 $component-button-ghost-text-color-focus: $theme-primary !default;
-$component-button-ghost-text-color-disabled: $theme-text-tertiary !default;
+$component-button-ghost-text-color-disabled: $component-body-text-color-disabled !default;
 
 // Borders 
 $component-button-ghost-border: 2px solid $theme-base !default;
@@ -153,7 +153,7 @@ $component-button-ghost-inverse-text-color-visited: $theme-text-inverse !default
 $component-button-ghost-inverse-text-color-hover: $theme-action-primary !default;
 $component-button-ghost-inverse-text-color-active: $theme-action-primary !default;
 $component-button-ghost-inverse-text-color-focus: $theme-action-primary !default;
-$component-button-ghost-inverse-text-color-disabled: $theme-text-tertiary !default;
+$component-button-ghost-inverse-text-color-disabled: $component-body-text-color-disabled !default;
 
 // Borders 
 $component-button-ghost-inverse-border: 2px solid $theme-base !default;
