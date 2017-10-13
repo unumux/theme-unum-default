@@ -15,9 +15,9 @@ $font-family-monospace: "Source Code Pro", monospace !default;
 $font-ratio: 1.2 !default;
 
 $min-font-size: 1rem !default;
-$max-font-size: 5rem !default;
+$max-font-size: 5.2rem !default;
 $min-line-height: 1.2 !default;
-$max-line-height: 1.8 !default;
+$max-line-height: 1.6 !default;
 
 $font-size-xs: 1.2rem !default;
 $font-size-s: $font-size-xs * $font-ratio !default; // 1.44
@@ -27,7 +27,7 @@ $font-size-xl: $font-size-l * $font-ratio !default; //2.48832
 $font-size-2xl: $font-size-xl * $font-ratio !default; //2.98598
 $font-size-3xl: $font-size-2xl * $font-ratio !default; //3.58318
 $font-size-4xl: $font-size-3xl * $font-ratio !default; //4.29982
-$font-size-5xl: $font-size-4xl * $font-ratio !default; //4.29982
+$font-size-5xl: $font-size-4xl * $font-ratio !default; //5.15978
 
 $line-height-font-size-xs: line-height($font-size-xs) !default;
 $line-height-font-size-s: line-height($font-size-s) !default;
